@@ -32,16 +32,25 @@ cd agente-de-contenido
 
 (Si te la pasaron como .zip, descomprimila en Documentos.)
 
-## 4. Zernio (publicar, programar, DM automático y métricas)
+## 4. Zernio: el conector oficial de Claude (publicar, programar, DM automático y métricas)
+
+Zernio está en el **directorio oficial de conectores de Claude**. Se conecta con un clic: sin API,
+sin claves y sin comandos.
 
 1. Creá tu cuenta en https://zernio.com y conectá tu Instagram desde su panel. Tu Instagram tiene
    que ser **cuenta profesional** (creador o empresa).
-2. Sumá Zernio a Claude Code (en la Terminal, fuera de Claude):
-   ```bash
-   claude mcp add --transport http zernio https://mcp.zernio.com/mcp
-   ```
-3. Abrí Claude Code en la carpeta, escribí `/mcp`, elegí **zernio** y entrá con tu cuenta.
-4. Probalo: «Con Zernio, decime qué cuentas tengo conectadas y si están sanas».
+2. En **claude.ai** (o la app de escritorio de Claude): **Configuración → Conectores**, buscá
+   **Zernio** y tocá **Conectar**. Entrá con tu cuenta de Zernio y aceptá.
+3. Listo: el conector queda en tu cuenta de Claude y lo usa Claude Code, si entrás con la misma
+   cuenta. Probalo dentro de la carpeta: «Con Zernio, decime qué cuentas tengo conectadas y si
+   están sanas».
+
+**Si en Claude Code no aparece:** escribí `/mcp` y fijate que figure Zernio. Si no está, como plan
+B sumalo a mano desde la Terminal (fuera de Claude) y entrá con tu cuenta desde `/mcp`:
+
+```bash
+claude mcp add --transport http zernio https://mcp.zernio.com/mcp
+```
 
 ¿No querés usar Zernio? Mirá [CONECTORES.md](CONECTORES.md): el agente funciona igual con
 ManyChat, subiendo a mano o con otro inbox.

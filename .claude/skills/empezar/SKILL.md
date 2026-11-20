@@ -9,7 +9,10 @@ El objetivo es dejar completos `perfil/perfil.md`, `perfil/competidores.md`, `co
 `perfil/diagnostico.md`.
 
 **Antes de las preguntas, revisá que esté todo instalado** (`docs/INSTALAR.md`):
-1. Zernio conectado con su Instagram: `accounts_list`. Si no responde, frená y mandalo al paso 4.
+1. Zernio conectado con su Instagram: llamá a la herramienta `accounts_list` de Zernio (viene del
+   **conector oficial de Claude**; según cómo lo conectó, el servidor puede figurar como «Zernio» o
+   con un nombre largo). Si no hay herramientas de Zernio o no responde, frená y mandalo a
+   `docs/INSTALAR.md` paso 4: se conecta desde claude.ai → Configuración → Conectores.
 2. Que pueda bajar videos: `yt-dlp --version`. Si falta, `brew install yt-dlp ffmpeg whisper-cpp`.
    Con eso alcanza con que te pase un link: vos lo bajás con `scripts/bajar.sh`. Preguntá **de a un bloque por vez**, no todo junto. Si la persona no
 sabe algo, dejalo como `___` y seguí: se completa después.
@@ -65,7 +68,7 @@ Preguntá cuál usa:
 
 | Si usa | Qué hacés |
 |---|---|
-| Zernio | Verificá que el conector responda: `accounts_list` (plataforma instagram). Guardá el `account_id` en `config.json`. Si no está conectado, mandalo a `docs/INSTALAR.md` paso 4 |
+| Zernio | Verificá que el conector responda: `accounts_list` (plataforma instagram). Guardá el `account_id` en `config.json`. Si no está conectado: claude.ai → Configuración → Conectores → Zernio (`docs/INSTALAR.md` paso 4) |
 | ManyChat u otra herramienta de DM | `dm_automatico: "manychat"`. Vos le preparás la palabra y el texto del DM; la automatización la arma él en su panel (`docs/CONECTORES.md`) |
 | Nada / sube a mano | `publicar: "manual"`. Vos dejás todo listo en `8-publicar/cola/` y él sube |
 | Mail, chat u otro inbox | `otro`. Preguntá cómo le llegan los mensajes y anotalo en `config.json` como texto. Adaptá el CTA (ej.: «escribime "PALABRA" por WhatsApp») |

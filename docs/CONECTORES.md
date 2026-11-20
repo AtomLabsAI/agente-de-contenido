@@ -1,6 +1,7 @@
 # Conectores
 
-El agente viene con **Zernio** de fábrica, pero se adapta a lo que uses. Se configura en
+El agente viene con **Zernio** de fábrica, conectado por el **conector oficial de Claude**
+(claude.ai → Configuración → Conectores → Zernio: un clic, sin API ni claves). Pero se adapta a lo que uses. Se configura en
 `config.json` → `conectores` (o decile al agente «uso ManyChat» y lo cambia él).
 
 | Para qué | Zernio | Alternativas |
