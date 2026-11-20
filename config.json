@@ -26,5 +26,23 @@
     "dias_minimos_publicado": 3,
     "videos_por_tanda": 7
   },
-  "zona_horaria": "America/Montevideo"
+  "zona_horaria": "America/Montevideo",
+  "disponibilidad": {
+    "_que_es": "Lo completa la skill empezar. Días y horarios en que la persona puede trabajar en contenido.",
+    "horas_por_semana": null,
+    "dias": [],
+    "bloques": "",
+    "graba_solo": null,
+    "hora_de_publicar": ""
+  },
+  "tiempos_por_pieza_min": {
+    "_que_es": "Estimación inicial para calcular cuánto entra en la semana. El agente la ajusta con lo que tarda la persona de verdad (pregunta al cerrar cada semana).",
+    "ideas_por_semana": 90,
+    "guion_por_reel": 20,
+    "grabar_por_reel": 15,
+    "revisar_edicion_por_reel": 10,
+    "carrusel": 30,
+    "historias_por_dia": 15,
+    "programar_por_semana": 30
+  }
 }

@@ -12,8 +12,8 @@
 5. **Editar** (jueves): «Editame los reels de 1-entrada, de a uno». Revisás cada uno.
 6. **Programar** (viernes): «Programá la semana que viene». Ves la lista y das el ok.
 
-En la etapa 1 y 2 también podés trabajar así; el calendario completo con mix de etapas e
-historias diarias arranca en la etapa 3.
+El agente te arma este calendario solo, con tus días y horarios («Armame la semana»). Si tenés
+menos días, junta tareas, pero nunca graba, edita y publica el mismo día.
 
 ## Dónde queda cada cosa
 

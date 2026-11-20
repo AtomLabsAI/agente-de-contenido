@@ -5,7 +5,8 @@ Una carpeta que, abierta con Claude Code, se convierte en tu equipo de contenido
 - **Diagnostica tu cuenta** con Zernio y te dice en qué etapa estás y qué publicar.
 - **Te saca ideas** de los videos que explotaron en tus competidores (outliers) y las adapta a tu nicho.
 - **Edita tus reels** (cortes, títulos, subtítulos, animados) y **arma tus carruseles** con tu identidad.
-- **Te escribe las historias** y, cuando tenés la cuenta lista, **el calendario de la semana**.
+- **Te arma el calendario de la semana** con el tiempo que tenés (te pregunta horas y horarios) y lo que pide tu etapa.
+- **Te escribe las historias** cuando tu cuenta ya está para eso.
 - **Publica y programa** con la automatización «comentá PALABRA → te mando el recurso». Nada sale sin tu ok.
 
 ## Las 3 etapas
@@ -14,7 +15,9 @@ Una carpeta que, abierta con Claude Code, se convierte en tu equipo de contenido
 |---|---|---|
 | 1 · Ojos | Menos de 1.000 seguidores | Solo TOFU: reels y carruseles para conseguir ojos, sacados de outliers (3× la mediana o más) |
 | 2 · Conexión | 1.000 o más, sostenido | Sigue el TOFU y suma historias: quién sos, qué hacés, tu día, nutrición |
-| 3 · Sistema | 1.500 o más con vistas constantes | Calendario completo por días: TOFU + MOFU + BOFU e historias todos los días |
+| 3 · Sistema | 1.500 o más con vistas constantes | Mix completo: TOFU + MOFU + BOFU e historias todos los días |
+
+El calendario va en las tres etapas: lo que cambia es qué entra en la semana.
 
 ## Arrancar en 3 pasos
 
@@ -23,8 +26,8 @@ Una carpeta que, abierta con Claude Code, se convierte en tu equipo de contenido
    ```bash
    cd ~/Documents/agente-de-contenido && claude
    ```
-3. Escribí **«Arranquemos»**. El agente te pregunta quién sos, tus competidores y tu identidad,
-   conecta Zernio y te dice en qué etapa estás.
+3. Escribí **«Arranquemos»**. El agente te pregunta quién sos, cuánto tiempo tenés, tus
+   competidores y tu identidad, conecta Zernio, te dice en qué etapa estás y te arma la primera semana.
 
 ## Qué hay adentro
 

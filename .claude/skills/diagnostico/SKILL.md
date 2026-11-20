@@ -75,10 +75,13 @@ Para pasar a la etapa ___ te falta: ___
 - Señal para avanzar: la misma gente comenta seguido.
 
 **Etapa 3 · Sistema (1.500 o más, con vistas constantes)**
-- Calendario completo por días (skill `calendario`): TOFU + MOFU + BOFU.
+- El calendario (skill `calendario`) pasa a tener TOFU + MOFU + BOFU.
 - Historias todos los días con la semana tipo, y 1 o 2 días por semana la secuencia para pedir
   («Respondé PALABRA y te lo paso»).
 - Casos de éxito cuando los haya.
+
+En las tres etapas, después del diagnóstico corré (u ofrecé) la skill `calendario`: con la etapa
+nueva cambia lo que entra en la semana.
 
 Los umbrales están en `config.json` → `etapas`. Si la persona los cambió, usá los suyos.
 

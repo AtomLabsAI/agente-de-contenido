@@ -43,9 +43,15 @@ Armame la historia de quién soy y qué hago.
 Armame la semana de historias.
 ```
 
-## Calendario (etapa 3)
+## Calendario
 ```
 Armame el calendario de la semana que viene.
+```
+```
+¿Qué me toca hoy?
+```
+```
+Esta semana tengo solo 2 horas. Rearmame el calendario.
 ```
 
 ## Publicar

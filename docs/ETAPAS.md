@@ -26,11 +26,15 @@ Por eso el agente no te recomienda lo mismo con 300 seguidores que con 3.000.
 
 ## 3 · Sistema (1.500 o más con vistas constantes)
 
-- **Calendario por días**: un día ideas, otro guiones, otro grabás, otro editás y el último
-  programás la semana siguiente. Siempre una semana de ventaja.
 - TOFU + MOFU + BOFU, historias todos los días con la semana tipo y 1 o 2 días por semana la
   secuencia para pedir («Respondé PALABRA y te lo paso»).
 - Casos de éxito cuando los tengas (solo reales).
+
+## El calendario, en todas las etapas
+
+El agente arma tu semana con el tiempo que le diste: un tipo de tarea por día (ideas, guiones,
+grabar, revisar, programar) y una semana de ventaja. Lo que cambia con la etapa es qué se
+publica: en la 1 solo TOFU, en la 2 se suman historias, en la 3 el mix completo.
 
 ## Cómo se mide cada etapa
 

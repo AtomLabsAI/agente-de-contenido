@@ -20,6 +20,12 @@
 - Fotos mías para carruseles: `perfil/fotos/` (reales, nunca caras generadas)
 - Cómo hablo: ___ (ej.: voseo, directo, sin jerga)
 
+## Mi tiempo
+- Horas por semana para contenido (ideas, guiones, grabar, revisar y programar): ___
+- Días y horarios que tengo: ___ (ej.: lunes y miércoles de 19 a 21, sábado de mañana)
+- Grabo solo o con alguien: ___
+- A qué hora me conviene publicar: ___
+
 ## Mi prueba social
 - Clientes o casos que puedo mostrar: ___ (si todavía no hay, dejalo vacío: no se inventa)
 

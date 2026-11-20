@@ -13,6 +13,8 @@ abajo son las nuestras: no las cambies salvo que la persona te lo pida.
 2. Si `perfil/perfil.md` todavía tiene `___` o el diagnóstico dice «Todavía no se hizo», corré
    la skill **`empezar`** antes de producir cualquier cosa.
 3. Si el diagnóstico tiene más de 30 días, ofrecé rehacerlo (skill `diagnostico`).
+   Si la semana que viene no tiene calendario en `8-publicar/calendario.md`, ofrecé armarlo
+   (skill `calendario`).
 4. Todo lo que propongas tiene que respetar **la etapa** del diagnóstico (abajo).
 
 ## Las etapas (lo más importante)
@@ -23,8 +25,11 @@ la persona te pase si no usa Zernio). Los números están en `config.json` → `
 | Etapa | Cuándo | Qué hacés | Qué NO hacés |
 |---|---|---|---|
 | **1 · Ojos** | Menos de 1.000 seguidores | **Solo TOFU**: reels, carruseles y trial reels que le hablan al seguidor ideal. Ideas sacadas de outliers de 3× o más la mediana de su cuenta | Historias, MOFU, «comentá YO y te hago una auditoría», vender |
-| **2 · Conexión** | 1.000 o más, sostenido 2 semanas | El TOFU sigue siendo la base. Suma las **primeras historias**: quién sos y qué hacés, tu día a día y algo de nutrición. Algún reel MOFU suelto | Calendario completo, venta directa |
-| **3 · Sistema** | 1.500 o más con vistas constantes | **Calendario de contenido** por días: TOFU + MOFU + BOFU, historias todos los días con la semana tipo, secuencias para pedir | Venta directa todas las semanas (solo antes de un lanzamiento) |
+| **2 · Conexión** | 1.000 o más, sostenido 2 semanas | El TOFU sigue siendo la base. Suma las **primeras historias**: quién sos y qué hacés, tu día a día y algo de nutrición. Algún reel MOFU suelto | Venta directa |
+| **3 · Sistema** | 1.500 o más con vistas constantes | TOFU + MOFU + BOFU, historias todos los días con la semana tipo, secuencias para pedir | Venta directa todas las semanas (solo antes de un lanzamiento) |
+
+**El calendario va en todas las etapas.** Lo armás vos con el tiempo que la persona tiene
+(`perfil/perfil.md` → «Mi tiempo») y su etapa decide qué entra: en la 1 es solo TOFU.
 
 - Si la persona pide algo de otra etapa (por ejemplo, un MOFU estando en la 1), hacelo, pero
   decile en una línea por qué todavía no le conviene.
@@ -43,7 +48,7 @@ la persona te pase si no usa Zernio). Los números están en `config.json` → `
 | `5-carruseles/` | Una carpeta por carrusel, con sus slides en HTML y PNG |
 | `6-historias/` | Guiones de historias por semana |
 | `7-recursos/` | Las guías y plantillas que regala por DM, con su link |
-| `8-publicar/` | `cola/` (lo listo para aprobar), `publicado.md` (registro) y `calendario.md` (etapa 3) |
+| `8-publicar/` | `cola/` (lo listo para aprobar), `publicado.md` (registro) y `calendario.md` (la semana) |
 | `docs/` | Las guías para la persona: cómo hacer todo |
 | `scripts/` | `outliers.py`, `etapa.py`, `bajar.sh`, `analizar.sh` |
 
@@ -57,7 +62,7 @@ la persona te pase si no usa Zernio). Los números están en `config.json` → `
 | «Editame este reel», «ponele subtítulos», «hacé un animado» | `editar-videos` |
 | «Armame un carrusel», «pasá este reel a carrusel» | `carruseles` |
 | «Qué subo en historias», «armame la semana de historias» | `historias` |
-| «Armame el calendario», «planificá la semana» | `calendario` |
+| «Armame el calendario», «planificá la semana», «qué hago hoy» | `calendario` |
 | «Publicalo», «programalo», «armá la automatización» | `publicar` |
 
 ## El flujo de cada pieza
