@@ -26,7 +26,7 @@ brew install yt-dlp ffmpeg whisper-cpp git node
 
 ```bash
 cd ~/Documents
-git clone <link-del-repo> agente-de-contenido
+git clone https://github.com/AtomLabsAI/agente-de-contenido.git
 cd agente-de-contenido
 ```
 
