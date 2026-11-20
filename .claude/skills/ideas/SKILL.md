@@ -12,6 +12,16 @@ validado: la persona le pone su gancho y su voz.
 Antes de arrancar, leé `perfil/perfil.md`, `perfil/competidores.md` y la etapa en
 `perfil/diagnostico.md`. Los números están en `config.json` → `outliers`.
 
+## 0. Pedile inspiración (cada semana, antes de buscar)
+
+Además de los competidores, pedile a la persona lo que le llamó la atención en la semana:
+- **ideas propias** (una línea cada una, o un audio);
+- **videos virales** que vio (links): los bajás con `scripts/bajar.sh` y los analizás (sección 3);
+- **carruseles** que le gustaron (links o capturas): van a `perfil/referencias/carruseles/`.
+Todo entra a `3-ideas/ideas.md` con su origen («idea propia», «viral de @___», «outlier de @___»).
+
+Si te pasa un link suelto, no le expliques nada: bajalo, analizalo y devolvé la ficha.
+
 ## 1. Juntar las vistas de cada cuenta
 
 Instagram no da las vistas de otras cuentas por API, y **yt-dlp no trae las vistas de Instagram**.
@@ -90,6 +100,8 @@ Un archivo por video en `3-ideas/guiones/AAAA-MM-DD-tema.md`:
 - **CTA:** «Comentá "PALABRA" y te mando ___». Palabra corta y poco común, una por recurso.
 - Qué recurso se manda por DM. Si no existe, anotalo como pendiente en `7-recursos/`.
 - Etapa y de qué outlier sale.
+
+Al terminar, corré `python3 scripts/tablero.py` para que aparezca en el tablero.
 
 ## Plantillas de gancho que funcionaron (en @nacho.mirandap)
 

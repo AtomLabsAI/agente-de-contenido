@@ -76,7 +76,16 @@ Reglas para los tres:
 - Logos de terceros: el logo real, nunca uno aproximado.
 - Mismo tamaño de título en todas las slides internas.
 
-## 4. Pipeline técnico
+## 4. Plantilla base
+
+Arrancá siempre de `.claude/skills/carruseles/plantilla/`: copiala a `5-carruseles/<slug>/`, cargá
+en `slides.json` los colores y tipografías de `perfil/perfil.md`, las slides y la foto de portada
+(de `perfil/fotos/`), y corré `python3 gen.py && ./render.sh`. Si la persona eligió otro estilo con
+sus referencias, adaptá el CSS de `gen.py` en esa copia, no en la plantilla.
+
+Para varios carruseles a la vez, mandá un subagente `carruseles` por cada uno.
+
+## 5. Pipeline técnico
 
 1. Una carpeta por carrusel: `5-carruseles/<slug>/`.
 2. Un HTML por slide, o un `gen.py` que arma todas desde una plantilla y una lista de datos
@@ -94,7 +103,7 @@ Reglas para los tres:
 5. Si hace falta editarlo a mano después, armalo en una herramienta de diseño editable
    (Canva, Figma, Claude Design) en vez de PNG fijos.
 
-## 5. Caption y CTA
+## 6. Caption y CTA
 
 - Caption corto: una línea que repite el gancho + «Comentá "PALABRA" y te mando…».
 - Sin hashtags.
@@ -102,7 +111,7 @@ Reglas para los tres:
   (guía, prompt, plantilla) o un botón a la comunidad.
 - Una palabra distinta por recurso para poder medir qué se pide.
 
-## 6. Revisar antes de entregar
+## 7. Revisar antes de entregar
 
 - Leer las slides en orden como si fueras el que scrollea: ¿la portada sola da ganas de pasar?
 - Ortografía, tildes, voseo parejo.

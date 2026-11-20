@@ -14,7 +14,7 @@ Una carpeta que, abierta con Claude Code, se convierte en tu equipo de contenido
 | Etapa | Cuándo | Qué te recomienda |
 |---|---|---|
 | 1 · Ojos | Menos de 1.000 seguidores | Solo TOFU: reels y carruseles para conseguir ojos, sacados de outliers (3× la mediana o más) |
-| 2 · Conexión | 1.000 o más, sostenido | Sigue el TOFU y suma historias: quién sos, qué hacés, tu día, nutrición |
+| 2 · Conexión | 1.000 a 1.500, sostenido | Sigue el TOFU, suma un video MOFU corto por semana y 2 o 3 historias por semana |
 | 3 · Sistema | 1.500 o más con vistas constantes | Mix completo: TOFU + MOFU + BOFU e historias todos los días |
 
 El calendario va en las tres etapas: lo que cambia es qué entra en la semana.
@@ -38,5 +38,6 @@ El calendario va en las tres etapas: lo que cambia es qué entra en la semana.
 | `perfil/` | Tu perfil, competidores, referencias y el diagnóstico |
 | `1-entrada/` … `8-publicar/` | Tus crudos, referencias, ideas, videos, carruseles, historias, recursos y lo que se publica |
 | `docs/` | Cómo hacer todo: [GUIA](docs/GUIA.md) · [ETAPAS](docs/ETAPAS.md) · [CONECTORES](docs/CONECTORES.md) · [PEDIDOS](docs/PEDIDOS.md) |
-| `scripts/` | `outliers.py`, `etapa.py`, `bajar.sh`, `analizar.sh` |
+| `scripts/` | `outliers.py`, `etapa.py`, `bajar.sh`, `analizar.sh`, `tablero.py` |
+| `TABLERO.html` | Todo tu contenido en un solo lugar: ideas, guiones, crudos, editados, lo listo y lo publicado |
 | `config.json` | Tus conectores y los números de las etapas y los outliers |

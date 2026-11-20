@@ -10,29 +10,17 @@ y qué sale publicado cada día. Va a `8-publicar/calendario.md`: una sección p
 nueva arriba.
 
 Antes de arrancar leé:
-- `perfil/perfil.md` («Mi tiempo») y `config.json` → `disponibilidad` y `tiempos_por_pieza_min`.
+- `perfil/perfil.md` («Mi tiempo») y `config.json` → `disponibilidad`.
   Si no hay horas por semana o días, preguntalos (sección 3 de la skill `empezar`) antes de seguir.
 - La etapa en `perfil/diagnostico.md`.
 - `3-ideas/ideas.md` (qué ideas hay marcadas) y `8-publicar/publicado.md` (qué salió la semana pasada).
 
 ## 1. Cuánto entra en la semana
 
-Con las horas que dio y los tiempos de `config.json`:
-
-```
-minutos libres = horas_por_semana × 60
-fijo = ideas_por_semana + programar_por_semana (+ historias_por_dia × días de historias, si la etapa tiene historias)
-por reel = guion + grabar + revisar_edicion
-reels = (minutos libres − fijo − carruseles × carrusel) ÷ por reel, redondeado para abajo
-```
-
-- Arrancá con más reels que carruseles: en la etapa 1 los reels traen los ojos. Si sobra tiempo,
-  sumá carruseles (salen de reels que ya rindieron).
-- **Mejor poco y todas las semanas que mucho una semana y nada la siguiente.** Si el número da
-  alto, proponé algo un poco por debajo para que lo sostenga.
-- Decile la cuenta en una línea: «Con 4 horas te entran 5 reels y 2 carruseles».
-- Los tiempos de `config.json` son una estimación inicial. Al cerrar cada semana preguntale cuánto
-  tardó de verdad en grabar y en guionar, y actualizalos.
+Con las horas por semana que dio, proponé cuántos reels, carruseles e historias entran, y
+preguntale si le parece que lo puede sostener. Pocas horas, pocas piezas: **mejor poco y todas las
+semanas que mucho una semana y nada la siguiente.** La etapa dice qué tipo de piezas (sección 3).
+Al cerrar cada semana preguntale si le sobró o le faltó tiempo, y ajustá la cantidad.
 
 ## 2. Repartir la producción en sus días
 
@@ -62,7 +50,7 @@ Poné cada tarea en el bloque horario que dio, con su duración estimada.
 | Etapa | Feed | Historias |
 |---|---|---|
 | 1 · Ojos | **Solo TOFU**: los reels y carruseles que entraron, repartidos en la semana | No (o su día a día, sin pedir nada) |
-| 2 · Conexión | TOFU de base + 1 MOFU por semana si hay tiempo | 3 o 4 días: primero «quién soy y qué hago», después conexión y nutrición (skill `historias`) |
+| 2 · Conexión | TOFU de base + 1 video MOFU corto por semana | 2 o 3 por semana: primero «quién soy y qué hago», después conexión y nutrición (skill `historias`) |
 | 3 · Sistema | TOFU + MOFU + BOFU. Proponé el reparto según lo que rindió y preguntale si le cierra | Todos los días con la semana tipo, 1 o 2 días la secuencia para pedir (skill `historias`) |
 
 - Cada pieza con su etapa, su gancho (o «idea pendiente» si todavía no está) y su PALABRA.
@@ -75,12 +63,12 @@ Poné cada tarea en el bloque horario que dio, con su duración estimada.
 ```markdown
 ## Semana del AAAA-MM-DD (etapa N · nombre)
 
-Tu tiempo: ___ h · Te entran: ___ reels y ___ carruseles
+Tu tiempo: ___ h por semana · Esta semana: ___ reels, ___ carruseles, ___ historias
 
 ### Producción (esta semana)
 | Día y hora | Tarea | Duración | Qué te llevás |
 |---|---|---|---|
-| Mar 19-20:30 | Ideas + guiones | 1 h 30 | ___ guiones listos |
+| Mar 19-20:30 | Ideas + guiones | ___ | ___ guiones listos |
 
 ### Publicación (semana que viene)
 | Día | Hora | Feed | Etapa | Gancho | PALABRA | Historias |
@@ -88,13 +76,14 @@ Tu tiempo: ___ h · Te entran: ___ reels y ___ carruseles
 | Lun | 19:00 | Reel | TOFU | «___» | ___ | — |
 ```
 
-Mostrale la semana, preguntale si le cierra y ajustá. Cuando la aprueba, guardala.
+Mostrale la semana, preguntale si le cierra y ajustá. Cuando la aprueba, guardala y corré
+`python3 scripts/tablero.py`.
 
 ## 5. Todas las semanas
 
 - Al arrancar una sesión, si la semana que viene no tiene calendario, ofrecé armarlo.
-- Al cerrar la semana: qué se publicó de lo planificado, qué no y por qué, cuánto tardó de verdad
-  (para los tiempos), y qué rindió (diagnóstico corto con Zernio).
+- Al cerrar la semana: qué se publicó de lo planificado, qué no y por qué, si le sobró o le faltó
+  tiempo, y qué rindió (diagnóstico corto con Zernio).
 - Si la etapa cambió, el calendario cambia con ella: avisale qué se suma.
 
 ## Checklist del día de grabación (para pasarle)

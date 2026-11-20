@@ -18,9 +18,9 @@ Por eso el agente no te recomienda lo mismo con 300 seguidores que con 3.000.
 ## 2 · Conexión (1.000 o más, sostenido 2 semanas)
 
 - El TOFU sigue siendo la base.
-- Arrancan las **historias**. La primera: quién sos y qué hacés. Después tu día a día y algo de
+- Arrancan las **historias**, 2 o 3 por semana. La primera: quién sos y qué hacés. Después tu día a día y algo de
   nutrición (una pregunta y 3 pasos a cámara).
-- Algún reel o carrusel MOFU suelto: cómo conseguir clientes, o una creencia de tu cliente que
+- Un video MOFU corto por semana: cómo conseguir clientes, o una creencia de tu cliente que
   cambiás («Creés que X. Es Y.»).
 - La señal de que vas bien: la misma gente comenta tus videos seguido.
 

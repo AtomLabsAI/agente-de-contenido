@@ -34,7 +34,7 @@ Los guiones van a `6-historias/AAAA-MM-DD-semana.md`.
 3. **Nutrición:** a cámara, una pregunta como gancho y 3 pasos cortos, uno por historia.
    Ej.: «¿Cómo ___?» → paso 1 → paso 2 → paso 3 → «Comentá ___».
 
-Ritmo sugerido: 3 o 4 días por semana. Venta, todavía no.
+Ritmo: 2 o 3 historias por semana. Venta, todavía no.
 
 ## B · Etapa 3: la semana tipo
 

@@ -40,7 +40,17 @@ Las herramientas de Zernio que no estén en la lista se buscan con `search_tools
    cualquier comentario), `match_mode: "word"`, `typo_tolerance: true`, `dm_message` (texto
    plano, con el link), `comment_reply: "Te lo mandé por privado"`.
 5. **Registrar:** fila en `8-publicar/publicado.md` (fecha · tipo · etapa · tema · link · palabra)
-   y mové la carpeta de `cola/` a `8-publicar/publicado/`.
+   y mové la carpeta de `cola/` a `8-publicar/publicado/`. Corré `python3 scripts/tablero.py`.
+
+## Trial reels
+
+Un trial reel es un reel que Instagram le muestra primero a gente que **no** te sigue. Sirve para
+probar un gancho sin quemar a tus seguidores, o para volver a sacar un reel que ya rindió.
+- Variante del video: skill `editar-videos`, sección «Variantes para trial reels» (velocidad,
+  filtro, zoom, recorte y otro encode; nunca se tocan los textos).
+- Al publicar por Zernio: `platformSpecificData.trialParams.graduationStrategy: "MANUAL"` (lo pasás
+  vos al feed si rinde) o `"SS_PERFORMANCE"` (lo pasa Instagram).
+- A los 2 o 3 días, compará vistas y skip contra el original y anotalo en `8-publicar/publicado.md`.
 
 ## B · ManyChat (u otra herramienta de DM)
 

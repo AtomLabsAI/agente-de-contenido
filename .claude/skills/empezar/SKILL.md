@@ -6,7 +6,12 @@ description: Configura el agente de contenido la primera vez — pregunta quién
 # Empezar (configuración inicial)
 
 El objetivo es dejar completos `perfil/perfil.md`, `perfil/competidores.md`, `config.json` y
-`perfil/diagnostico.md`. Preguntá **de a un bloque por vez**, no todo junto. Si la persona no
+`perfil/diagnostico.md`.
+
+**Antes de las preguntas, revisá que esté todo instalado** (`docs/INSTALAR.md`):
+1. Zernio conectado con su Instagram: `accounts_list`. Si no responde, frená y mandalo al paso 4.
+2. Que pueda bajar videos: `yt-dlp --version`. Si falta, `brew install yt-dlp ffmpeg whisper-cpp`.
+   Con eso alcanza con que te pase un link: vos lo bajás con `scripts/bajar.sh`. Preguntá **de a un bloque por vez**, no todo junto. Si la persona no
 sabe algo, dejalo como `___` y seguí: se completa después.
 
 ## 1. Quién sos (perfil.md · «Quién soy» y «A quién le hablo»)
@@ -44,7 +49,7 @@ que lo mínimo que conviene sostener es lo que pueda hacer **todas** las semanas
 
 ## 4. Referencias (perfil/referencias/ y competidores.md)
 
-- **Competidores y referentes: mínimo 5 cuentas.** Pedí que priorice **referentes de EE. UU.**
+- **Competidores y referentes: pedí 10 cuentas.** Pedí que priorice **referentes de EE. UU.**
   (van adelantados y no son su competencia directa). Las de habla hispana se pueden sumar, pero
   no como única fuente. Anotalas en `perfil/competidores.md`.
 - **Videos y carruseles que le gustan:** 3 a 5 links. Son para copiar formato y estilo (cómo

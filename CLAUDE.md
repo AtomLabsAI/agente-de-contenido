@@ -15,7 +15,11 @@ abajo son las nuestras: no las cambies salvo que la persona te lo pida.
 3. Si el diagnóstico tiene más de 30 días, ofrecé rehacerlo (skill `diagnostico`).
    Si la semana que viene no tiene calendario en `8-publicar/calendario.md`, ofrecé armarlo
    (skill `calendario`).
-4. Todo lo que propongas tiene que respetar **la etapa** del diagnóstico (abajo).
+4. **Si hay crudos en `1-entrada/`, editalos sin que te lo pidan:** mandá un subagente
+   `editor-de-reels` por crudo (de a uno o dos por vez) y avisá cuando estén en `4-videos/editados/`.
+5. Rehacé el tablero (`python3 scripts/tablero.py`) y decile que lo abra: `open TABLERO.html`.
+   Ahí ve todo junto: ideas, guiones para grabar, crudos, editados, lo listo y lo publicado.
+6. Todo lo que propongas tiene que respetar **la etapa** del diagnóstico (abajo).
 
 ## Las etapas (lo más importante)
 
@@ -25,7 +29,7 @@ la persona te pase si no usa Zernio). Los números están en `config.json` → `
 | Etapa | Cuándo | Qué hacés | Qué NO hacés |
 |---|---|---|---|
 | **1 · Ojos** | Menos de 1.000 seguidores | **Solo TOFU**: reels, carruseles y trial reels que le hablan al seguidor ideal. Ideas sacadas de outliers de 3× o más la mediana de su cuenta | Historias, MOFU, «comentá YO y te hago una auditoría», vender |
-| **2 · Conexión** | 1.000 o más, sostenido 2 semanas | El TOFU sigue siendo la base. Suma las **primeras historias**: quién sos y qué hacés, tu día a día y algo de nutrición. Algún reel MOFU suelto | Venta directa |
+| **2 · Conexión** | 1.000 o más, sostenido 2 semanas | El TOFU sigue siendo la base. Suma **un video MOFU corto por semana** y **2 o 3 historias por semana**: primero quién sos y qué hacés, después tu día a día y algo de nutrición | Venta directa |
 | **3 · Sistema** | 1.500 o más con vistas constantes | TOFU + MOFU + BOFU, historias todos los días con la semana tipo, secuencias para pedir | Venta directa todas las semanas (solo antes de un lanzamiento) |
 
 **El calendario va en todas las etapas.** Lo armás vos con el tiempo que la persona tiene
@@ -50,7 +54,9 @@ la persona te pase si no usa Zernio). Los números están en `config.json` → `
 | `7-recursos/` | Las guías y plantillas que regala por DM, con su link |
 | `8-publicar/` | `cola/` (lo listo para aprobar), `publicado.md` (registro) y `calendario.md` (la semana) |
 | `docs/` | Las guías para la persona: cómo hacer todo |
-| `scripts/` | `outliers.py`, `etapa.py`, `bajar.sh`, `analizar.sh` |
+| `scripts/` | `outliers.py`, `etapa.py`, `bajar.sh`, `analizar.sh`, `tablero.py` |
+| `TABLERO.html` | Todo el contenido en un solo lugar (se rehace con `scripts/tablero.py`) |
+| `.claude/agents/` | Subagentes: `editor-de-reels` (uno por crudo) y `carruseles` (uno por carrusel) |
 
 ## Qué pide → qué skill
 
@@ -59,8 +65,8 @@ la persona te pase si no usa Zernio). Los números están en `config.json` → `
 | «Arranquemos», «configurá mi agente», primera vez | `empezar` |
 | «Diagnosticá mi cuenta», «¿en qué etapa estoy?», «¿qué subo esta semana?» | `diagnostico` |
 | «Buscá outliers de @cuenta», «dame ideas», «analizá este reel», «pasá a guion» | `ideas` |
-| «Editame este reel», «ponele subtítulos», «hacé un animado» | `editar-videos` |
-| «Armame un carrusel», «pasá este reel a carrusel» | `carruseles` |
+| «Editame este reel», «ponele subtítulos», «hacé un animado» (HyperFrames o Remotion), «hacé variantes para trial» | `editar-videos` (o subagente `editor-de-reels`) |
+| «Armame un carrusel», «pasá este reel a carrusel» | `carruseles` (o subagente `carruseles`) |
 | «Qué subo en historias», «armame la semana de historias» | `historias` |
 | «Armame el calendario», «planificá la semana», «qué hago hoy» | `calendario` |
 | «Publicalo», «programalo», «armá la automatización» | `publicar` |

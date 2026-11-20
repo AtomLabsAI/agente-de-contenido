@@ -12,13 +12,15 @@ Tiempo: 20 a 30 minutos la primera vez. Probado en Mac.
 Si no tenés Homebrew, instalalo con el comando de https://brew.sh. Después:
 
 ```bash
-brew install yt-dlp ffmpeg whisper-cpp git
+brew install yt-dlp ffmpeg whisper-cpp git node
 ```
 
 - `yt-dlp`: baja videos públicos para analizarlos.
 - `ffmpeg`: corta y edita video.
 - `whisper-cpp`: transcribe audio (el modelo se baja solo la primera vez que analizás un video).
 - Google Chrome: lo usa para pasar las slides de los carruseles a PNG.
+- `node` (versión 22 o más): para los videos animados con HyperFrames (`npx hyperframes`) o
+  Remotion. Si no vas a hacer animados, podés saltearlo.
 
 ## 3. Esta carpeta
 

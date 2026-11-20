@@ -34,15 +34,5 @@
     "bloques": "",
     "graba_solo": null,
     "hora_de_publicar": ""
-  },
-  "tiempos_por_pieza_min": {
-    "_que_es": "Estimación inicial para calcular cuánto entra en la semana. El agente la ajusta con lo que tarda la persona de verdad (pregunta al cerrar cada semana).",
-    "ideas_por_semana": 90,
-    "guion_por_reel": 20,
-    "grabar_por_reel": 15,
-    "revisar_edicion_por_reel": 10,
-    "carrusel": 30,
-    "historias_por_dia": 15,
-    "programar_por_semana": 30
   }
 }

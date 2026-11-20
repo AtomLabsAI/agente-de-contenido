@@ -69,9 +69,9 @@ Para pasar a la etapa ___ te falta: ___
 
 **Etapa 2 · Conexión (1.000 o más, sostenido 2 semanas)**
 - El TOFU sigue siendo la base.
-- Arrancan las historias (skill `historias`): primero una historia contando **quién es y qué
-  hace**, después su día a día y algo de nutrición (una pregunta + 3 pasos a cámara).
-- Algún reel o carrusel MOFU suelto: sobre conseguir clientes o un cambio de creencia del cliente.
+- Arrancan las historias, **2 o 3 por semana** (skill `historias`): primero una contando **quién
+  es y qué hace**, después su día a día y algo de nutrición (una pregunta + 3 pasos a cámara).
+- Un video MOFU corto por semana: sobre conseguir clientes o un cambio de creencia del cliente.
 - Señal para avanzar: la misma gente comenta seguido.
 
 **Etapa 3 · Sistema (1.500 o más, con vistas constantes)**

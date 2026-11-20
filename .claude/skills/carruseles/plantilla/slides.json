@@ -1,0 +1,11 @@
+{
+  "colores": {"fondo": "#0f1115", "texto": "#f5f3ee", "texto2": "#b9b6ae", "acento": "#87abdb", "acento2": "#db6f54"},
+  "tipografias": {"titulo": "Montserrat", "texto": "Inter"},
+  "cuenta": "@tu.cuenta",
+  "slides": [
+    {"tipo": "portada", "titulo": "7 agentes de IA que tu negocio [necesita] en 2026", "foto": ""},
+    {"tipo": "contexto", "titulo": "Por qué importa", "texto": "Los negocios que automatizan contestan en minutos. Los demás, al otro día."},
+    {"tipo": "punto", "numero": "1", "titulo": "Agente de WhatsApp", "texto": "Contesta, califica y agenda. Ej.: una inmobiliaria."},
+    {"tipo": "cta", "titulo": "¿Querés la guía completa?", "palabra": "AGENTES", "texto": "Comentá y te la mando por privado."}
+  ]
+}
