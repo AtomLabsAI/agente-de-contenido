@@ -1,0 +1,18 @@
+# Videos y renders: pesan mucho y no van a GitHub
+*.mp4
+*.mov
+*.MOV
+*.m4a
+*.wav
+*.mp3
+2-referencias/videos/*
+!2-referencias/videos/.gitkeep
+1-entrada/*
+!1-entrada/.gitkeep
+4-videos/crudos/*
+!4-videos/crudos/.gitkeep
+4-videos/editados/*
+!4-videos/editados/.gitkeep
+.tmp/
+.DS_Store
+__pycache__/

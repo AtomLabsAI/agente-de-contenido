@@ -1,0 +1,30 @@
+{
+  "cuenta": {
+    "instagram": "",
+    "zernio_account_id": ""
+  },
+  "conectores": {
+    "_opciones": "zernio | manychat | manual | otro",
+    "publicar": "zernio",
+    "dm_automatico": "zernio",
+    "metricas": "zernio"
+  },
+  "etapas": {
+    "historias_desde_seguidores": 1000,
+    "historias_semanas_sostenido": 2,
+    "calendario_desde_seguidores": 1500,
+    "vistas_constantes": {
+      "_que_es": "Propuesta: en las últimas 4 semanas, ninguna semana con la mediana de vistas por debajo de la mitad de la mediana del mes. Ajustalo si querés.",
+      "semanas": 4,
+      "piso_vs_mediana_del_mes": 0.5
+    }
+  },
+  "outliers": {
+    "minimo_veces_mediana": 3,
+    "prioridad_veces_mediana": 4,
+    "reels_a_mirar_por_cuenta": 30,
+    "dias_minimos_publicado": 3,
+    "videos_por_tanda": 7
+  },
+  "zona_horaria": "America/Montevideo"
+}
